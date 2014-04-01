@@ -32,6 +32,6 @@ class TweetBot:
     return ' '.join(tweet)
 
 
-bot = TweetBot('tweets.txt', 3)
+bot = TweetBot('tweets.txt')
 print bot.generate_tweet()
 
